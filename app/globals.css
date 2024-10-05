@@ -9,7 +9,13 @@
 }
 
 .container {
-  width: 90%;
+  width: 83.34%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navcontainer {
+  width: 91.67%;
   margin-left: auto;
   margin-right: auto;
 }

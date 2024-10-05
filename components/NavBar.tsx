@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <div className="border-b">
-      <section className="container h-16 flex justify-between items-center">
-        <div className="font-bold text-2xl">SKCloud</div>
+      <section className="navcontainer flex h-16 items-center justify-between">
+        <div className="text-2xl font-bold">SKCloud</div>
         <div className="flex items-center">
           <Link href="#" className="px-4">
             Reviews
@@ -12,7 +12,7 @@ export default function NavBar() {
           <Link href="#" className="px-4">
             Courses
           </Link>
-          <Link href="#" className="py-2 px-4 mx-4 border rounded-lg">
+          <Link href="#" className="mx-4 rounded-lg border px-4 py-2">
             Register Now
           </Link>
         </div>
