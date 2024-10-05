@@ -15,7 +15,7 @@ export default function HandsOn() {
       </div>
       <div className="flex justify-between gap-5">
         <div className="">
-          <div className="bg-[#dbdbff]">
+          <div className="rounded-t-xl bg-[#dbdbff]">
             <Image src={hands_on} alt="hands on" />
           </div>
           <p className="rounded-lg border p-1">AWS</p>
@@ -26,7 +26,7 @@ export default function HandsOn() {
           </a>
         </div>
         <div className="">
-          <div className="bg-[#dbdbff]">
+          <div className="rounded-t-xl bg-[#dbdbff]">
             <Image src={hands_on} alt="hands on" />
           </div>
           <p className="rounded-lg border p-1">Azure</p>
@@ -37,7 +37,7 @@ export default function HandsOn() {
           </a>
         </div>
         <div className="">
-          <div className="bg-[#dbdbff]">
+          <div className="rounded-t-xl bg-[#dbdbff]">
             <Image src={hands_on} alt="hands on" />
           </div>
           <p className="rounded-lg border p-1">GCP</p>
