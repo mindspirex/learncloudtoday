@@ -19,3 +19,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.background {
+  background-image: url("../images/background.webp"),
+    linear-gradient(180deg, #474ab6 0%, #9271f6 100%) !important;
+  background-blend-mode: overlay;
+  background-size: cover;
+}

@@ -5,13 +5,13 @@ import Intense from "@/components/IntenseCourse";
 export default function Azure() {
   return (
     <main>
-      <div className="bg-[#474ab6] bg-[url('../images/azure_landing_bg.webp')] bg-cover py-20 bg-blend-overlay">
+      <div className="background py-20">
         <AzureLanding />
       </div>
       <div className="py-20">
         <Experience />
       </div>
-      <div className="bg-[#474ab6] bg-[url('../images/azure_landing_bg.webp')] bg-cover py-20 bg-blend-overlay">
+      <div className="background py-20">
         <Intense />
       </div>
     </main>
