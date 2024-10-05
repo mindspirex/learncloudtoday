@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import calendar from "@/images/calendar.svg";
 
 export default function AzureLanding() {
   return (
@@ -16,26 +18,13 @@ export default function AzureLanding() {
         <div className="flex">
           <Link
             href="#"
-            className="rounded-full bg-white px-5 py-3 font-semibold text-purple-800"
+            className="rounded-full bg-white px-5 py-3 font-semibold text-[#5d54c1]"
           >
             ENROLL NOW
           </Link>
         </div>
       </div>
-      <svg
-        width="375"
-        height="325"
-        xmlns="http://www.w3.org/2000/svg"
-        className="flex-shrink-0"
-      >
-        <circle r="45" cx="62.5" cy="155" fill="#ff5924" />
-        <rect width="125" height="125" x="125" y="75" fill="#3e84fc" />
-        <rect width="125" height="125" x="250" y="75" fill="#ff5924" />
-        <rect width="125" height="125" x="0" y="200" fill="#5dda42" />
-        <rect width="125" height="125" x="125" y="200" fill="#ff5924" />
-        <rect width="125" height="125" x="250" y="200" fill="#3e84fc" />
-        <polygon points="125,200 375,200 250,0" fill="#5dda42" />
-      </svg>
+      <Image src={calendar} alt="calendar" className="h-64 w-64" />
     </section>
   );
 }

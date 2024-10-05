@@ -3,19 +3,13 @@
 @tailwind utilities;
 
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 .container {
   width: 83.34%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.navcontainer {
-  width: 91.67%;
   margin-left: auto;
   margin-right: auto;
 }

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <section className="navcontainer flex h-16 items-center justify-between">
+    <section className="container flex h-16 w-3/5 items-center justify-between">
       <div className="text-2xl font-bold">SKCloud</div>
       <div className="flex items-center">
         <Link href="#" className="px-4">
