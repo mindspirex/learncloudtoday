@@ -8,14 +8,14 @@ export default function HandsOn() {
         <h3 className="text-center text-3xl font-semibold text-[#7272ff]">
           Hand-on Courses
         </h3>
-        <a className="w-96 text-center text-sm text-[#7272ff]">
+        <a className="max-w-[400px] text-center text-sm text-[#7272ff]">
           Practical in nature with 100+ guided hands-on exercises in our state
           of the art online labs.
         </a>
       </div>
-      <div className="flex justify-between gap-5">
-        <div className="">
-          <div className="rounded-t-xl bg-[#dbdbff]">
+      <div className="flex flex-col justify-between gap-5 md:flex-row">
+        <div className="rounded-xl bg-white">
+          <div className="flex justify-center bg-[#dbdbff]">
             <Image src={hands_on} alt="hands on" />
           </div>
           <p className="rounded-lg border p-1">AWS</p>
@@ -25,8 +25,8 @@ export default function HandsOn() {
             of the art online labs
           </a>
         </div>
-        <div className="">
-          <div className="rounded-t-xl bg-[#dbdbff]">
+        <div className="rounded-xl bg-white">
+          <div className="flex justify-center bg-[#dbdbff]">
             <Image src={hands_on} alt="hands on" />
           </div>
           <p className="rounded-lg border p-1">Azure</p>
@@ -36,8 +36,8 @@ export default function HandsOn() {
             of the art online labs
           </a>
         </div>
-        <div className="">
-          <div className="rounded-t-xl bg-[#dbdbff]">
+        <div className="rounded-xl bg-white">
+          <div className="flex justify-center bg-[#dbdbff]">
             <Image src={hands_on} alt="hands on" />
           </div>
           <p className="rounded-lg border p-1">GCP</p>
