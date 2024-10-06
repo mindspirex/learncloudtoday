@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aws from "@/images/aws.png";
+import amazon from "@/images/amazon.png";
 import microsoft from "@/images/microsoft.png";
 import ibm from "@/images/ibm.png";
 
@@ -15,10 +15,10 @@ export default function JoinTheRevolution() {
           away in their organisations.
         </p>
       </div>
-      <div className="flex">
-        <Image src={aws} alt="aws" className="h-48 w-48" />
-        <Image src={microsoft} alt="microsft" className="h-96" />
-        <Image src={ibm} alt="ibm" />
+      <div className="flex w-full items-center justify-around">
+        <Image src={ibm} alt="ibm" className="w-36 grow-0" />
+        <Image src={microsoft} alt="microsft" className="w-48 grow-0" />
+        <Image src={amazon} alt="amazon" className="w-32 grow-0" />
       </div>
     </section>
   );
