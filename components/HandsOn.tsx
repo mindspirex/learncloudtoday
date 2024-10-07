@@ -1,5 +1,7 @@
 import Image from "next/image";
-import hands_on from "@/images/hands_on.png";
+import aws from "@/images/aws.png";
+import azure from "@/images/azure.png";
+import gcp from "@/images/gcp.png";
 
 export default function HandsOn() {
   return (
@@ -14,9 +16,9 @@ export default function HandsOn() {
         </p>
       </div>
       <div className="flex flex-col justify-between gap-5 md:flex-row">
-        <div className="rounded-xl">
-          <div className="flex justify-center bg-[#dbdbff]">
-            <Image src={hands_on} alt="hands on" />
+        <div className="flex-1 rounded-xl">
+          <div className="flex h-48 justify-center bg-[#dbdbff]">
+            <Image src={aws} alt="aws" className="object-contain" />
           </div>
           <div className="flex flex-col gap-3 bg-white p-5">
             <div className="">
@@ -33,9 +35,9 @@ export default function HandsOn() {
             </p>
           </div>
         </div>
-        <div className="rounded-xl">
-          <div className="flex justify-center bg-[#dbdbff]">
-            <Image src={hands_on} alt="hands on" />
+        <div className="flex-1 rounded-xl">
+          <div className="flex h-48 justify-center bg-[#dbdbff]">
+            <Image src={azure} alt="azure" className="object-contain" />
           </div>
           <div className="flex flex-col gap-3 bg-white p-5">
             <div>
@@ -52,9 +54,9 @@ export default function HandsOn() {
             </p>
           </div>
         </div>
-        <div className="rounded-xl">
-          <div className="flex justify-center bg-[#dbdbff]">
-            <Image src={hands_on} alt="hands on" />
+        <div className="flex-1 rounded-xl">
+          <div className="flex h-48 justify-center bg-[#dbdbff]">
+            <Image src={gcp} alt="gcp" className="object-contain" />
           </div>
           <div className="flex flex-col gap-3 bg-white p-5">
             <div>

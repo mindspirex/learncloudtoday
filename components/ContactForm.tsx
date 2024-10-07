@@ -27,7 +27,7 @@ export default function ContactForm() {
             <p className="text-sm text-white">+91 8766299829</p>
             <p className="text-sm text-white">+91 8766299829</p>
           </div>
-          <p className="text-white">info@learncloudtoday.com</p>
+          <p className="text-white">info@learncloudtoday. com</p>
         </div>
       </div>
     </section>
