@@ -531,18 +531,12 @@ video {
 .absolute {
   position: absolute;
 }
-.relative {
-  position: relative;
-}
-.z-10 {
-  z-index: 10;
+.top-\[62px\] {
+  top: 62px;
 }
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-.block {
-  display: block;
 }
 .inline {
   display: inline;
@@ -788,6 +782,10 @@ video {
 .text-\[\#5d54c1\] {
   --tw-text-opacity: 1;
   color: rgb(93 84 193 / var(--tw-text-opacity));
+}
+.text-\[\#666666\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 102 102 / var(--tw-text-opacity));
 }
 .text-\[\#7272ff\] {
   --tw-text-opacity: 1;

@@ -1,3 +1,7 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/azure/page": "app/azure/page.js",
+  "/aws/page": "app/aws/page.js",
+  "/gcp/page": "app/gcp/page.js",
+  "/enroll/page": "app/enroll/page.js"
 }

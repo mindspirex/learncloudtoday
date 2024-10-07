@@ -1,3 +1,11 @@
+import GcpCurriculum from "@/components/GcpCurriculum";
+import GcpLanding from "@/components/GcpLanding";
+
 export default function Gcp() {
-  return <main></main>;
+  return (
+    <main>
+      <GcpLanding />
+      <GcpCurriculum />
+    </main>
+  );
 }
