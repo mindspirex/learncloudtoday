@@ -10,11 +10,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="b border">
+        <div className="b border py-2">
           <NavBar />
         </div>
         <main>{children}</main>
-        <div>
+        <div className="bg-[#3b379f] py-5">
           <Footer />
         </div>
       </body>
