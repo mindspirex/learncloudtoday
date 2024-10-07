@@ -15,7 +15,7 @@ export default function RegistrationForm() {
         <input placeholder="Message" className="border p-3" />
         <div className="flex justify-end">
           <button className="rounded-full border bg-[#7272ff] px-4 py-2 font-semibold text-white">
-            SEND MESSAGE
+            REGISTER
           </button>
         </div>
       </div>

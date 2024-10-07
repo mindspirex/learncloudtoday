@@ -528,9 +528,21 @@ video {
     max-width: 1536px;
   }
 }
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.z-10 {
+  z-index: 10;
+}
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
+}
+.block {
+  display: block;
 }
 .inline {
   display: inline;
@@ -564,12 +576,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-\[300px\] {
-  width: 300px;
-}
-.w-\[500px\] {
-  width: 500px;
 }
 .max-w-\[400px\] {
   max-width: 400px;
