@@ -3,7 +3,6 @@ import Experience from "@/components/Experience";
 import Intense from "@/components/IntenseCourse";
 import HandsOn from "@/components/HandsOn";
 import JoinTheRevolution from "@/components/JoinTheRevolution";
-import Ready from "@/components/Ready";
 
 export default function Home() {
   return (
@@ -22,9 +21,6 @@ export default function Home() {
       </div>
       <div className="pb-8 pt-20">
         <JoinTheRevolution />
-      </div>
-      <div className="bg-[#f7f8fc] py-20">
-        <Ready />
       </div>
     </main>
   );

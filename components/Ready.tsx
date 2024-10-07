@@ -13,13 +13,13 @@ export default function Ready() {
       </div>
       <div className="flex grow flex-col items-start justify-evenly gap-3 md:flex-row md:items-center">
         <Link
-          href="#"
+          href="/enroll"
           className="rounded-full border bg-[#7272ff] px-5 py-3 font-semibold text-white"
         >
           ENROLL NOW
         </Link>
         <Link
-          href="#"
+          href="/contact"
           className="rounded-full border bg-white px-5 py-3 font-semibold text-[#7272ff]"
         >
           CONTACT US

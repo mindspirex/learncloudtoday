@@ -1,6 +1,7 @@
 import "@/app/globals.css";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
+import Ready from "@/components/Ready";
 
 export default function RootLayout({
   children,
@@ -14,6 +15,9 @@ export default function RootLayout({
           <NavBar />
         </div>
         <main>{children}</main>
+        <div className="bg-[#f7f8fc] py-20">
+          <Ready />
+        </div>
         <div className="bg-[#3b379f] py-5">
           <Footer />
         </div>

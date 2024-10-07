@@ -7,9 +7,6 @@ export default function Contact() {
       <div className="background py-20">
         <ContactForm />
       </div>
-      <div className="bg-[#f7f8fc] py-20">
-        <Ready />
-      </div>
     </main>
   );
 }
