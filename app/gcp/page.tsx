@@ -4,8 +4,12 @@ import GcpLanding from "@/components/GcpLanding";
 export default function Gcp() {
   return (
     <main>
-      <GcpLanding />
-      <GcpCurriculum />
+      <div className="background py-20">
+        <GcpLanding />
+      </div>
+      <div className="py-20">
+        <GcpCurriculum />
+      </div>
     </main>
   );
 }

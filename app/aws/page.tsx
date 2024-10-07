@@ -4,8 +4,12 @@ import AwsLanding from "@/components/AwsLanding";
 export default function Aws() {
   return (
     <main>
-      <AwsLanding />
-      <AwsCurriculum />
+      <div className="background py-20">
+        <AwsLanding />
+      </div>
+      <div className="py-20">
+        <AwsCurriculum />
+      </div>
     </main>
   );
 }

@@ -1,9 +1,13 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/images/logo.png";
 
 export default function NavBar() {
   return (
     <section className="container flex items-center justify-between">
-      <div className="text-2xl font-bold">LearnCloudToday.com</div>
+      <div className="w-64">
+        <Image src={logo} alt="log" className="object-cover" />
+      </div>
       <div className="flex items-center">
         <Link href="/azure" className="px-4 text-[#666666]">
           Azure
