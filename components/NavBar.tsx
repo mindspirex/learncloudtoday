@@ -5,9 +5,11 @@ import logo from "@/images/logo.png";
 export default function NavBar() {
   return (
     <section className="container flex items-center justify-between">
-      <div className="w-64">
-        <Image src={logo} alt="log" className="object-cover" />
-      </div>
+      <Link href="/">
+        <div className="w-64">
+          <Image src={logo} alt="log" className="object-cover" />
+        </div>
+      </Link>
       <div className="flex items-center">
         <Link href="/azure" className="px-4 text-[#666666]">
           Azure
