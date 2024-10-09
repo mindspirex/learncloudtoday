@@ -10,7 +10,9 @@ export default function NavBar() {
           <Image src={logo} alt="log" className="object-cover" />
         </div>
       </Link>
-      <div className="flex items-center">
+      <div className="lg:hidden">{/* menu on small screens */}</div>
+      <div className="hidden items-center lg:flex">
+        {/* menu on large screens */}
         <Link href="/azure" className="px-4 text-[#666666]">
           Azure
         </Link>
