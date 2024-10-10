@@ -43,6 +43,28 @@ export default function Reviews() {
             <p>Shrey Aggrawal</p>
           </div>
         </div>
+        <div className="flex w-80 flex-col justify-between gap-5 rounded-3xl border p-10">
+          <p>
+            The Google Cloud Platform course provided a thorough introduction to
+            GCP services, with clear explanations and real-world examples that
+            made complex concepts easy to understand.
+          </p>
+          <div className="flex items-center justify-start gap-3">
+            <Image src={profile} alt="profile" />
+            <p>Shrey Aggrawal</p>
+          </div>
+        </div>
+        <div className="flex w-80 flex-col justify-between gap-5 rounded-3xl border p-10">
+          <p>
+            The Google Cloud Platform course provided a thorough introduction to
+            GCP services, with clear explanations and real-world examples that
+            made complex concepts easy to understand.
+          </p>
+          <div className="flex items-center justify-start gap-3">
+            <Image src={profile} alt="profile" />
+            <p>Shrey Aggrawal</p>
+          </div>
+        </div>
       </div>
     </section>
   );
