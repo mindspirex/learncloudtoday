@@ -17,7 +17,7 @@ export default function Home() {
       <div className="bg-[#f7f8fc] py-20">
         <HandsOn />
       </div>
-      <div className="py-8 pt-20">
+      <div className="py-20">
         <Reviews />
       </div>
       <div className="bg-[#f7f8fc] py-20">
